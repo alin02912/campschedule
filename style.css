@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+  width: 70vw;
+  height: 100vh;
+}
+
+
+.container {
+  border: 5px solid blue;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: aquamarine;
+
+}
+
+.drag {
+  position: absolute;
+  border: 5px solid black;
+  width: 100px;
+  height: 100px;
+  font-size: large;
+  border-radius: 10%;
+  text-align: center;
+
+}
+
+.drag:hover {
+  background: linear-gradient(-35deg, #e4e7b0, #aeee9b);
+}
